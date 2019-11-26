@@ -53,6 +53,8 @@ class Queue extends AbstractEntity
     public $disk_reads;
     public $disk_writes;
     public $exclusive;
+    public $effective_policy_definition;
+    public $operator_policy;
 
     public function getBindings()
     {
